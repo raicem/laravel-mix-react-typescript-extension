@@ -1,6 +1,6 @@
 let mix = require("laravel-mix");
 
-class ReactTypescript {
+class ReactTypeScript {
   constructor() {
     this.toCompile = [];
   }
@@ -62,4 +62,4 @@ class ReactTypescript {
   }
 }
 
-mix.extend("reactTypescript", new ReactTypescript());
+mix.extend("reactTypeScript", new ReactTypeScript());

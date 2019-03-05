@@ -1,7 +1,7 @@
 {
   "name": "laravel-mix-react-typescript-extension",
   "version": "1.0.0",
-  "description": "Laravel Mix extension for building React with Typescript. This uses the Babel loader and not the ts-loader.",
+  "description": "Laravel Mix extension for building React with TypeScript. Using @babel/preset-typescript.",
   "main": "index.js",
   "repository": {
     "type": "git",
