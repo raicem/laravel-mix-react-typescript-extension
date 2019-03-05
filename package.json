@@ -1,0 +1,26 @@
+{
+  "name": "laravel-mix-react-typescript-extension",
+  "version": "1.0.0",
+  "description": "Laravel Mix extension for building React with Typescript. This uses the Babel loader and not the ts-loader.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raicem/laravel-mix-react-typescript-extension.git"
+  },
+  "keywords": [
+    "laravel",
+    "laravel mix",
+    "mix",
+    "typescript",
+    "react"
+  ],
+  "author": "Cem Ünalan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raicem/laravel-mix-react-typescript-extension/issues"
+  },
+  "homepage": "https://github.com/raicem/laravel-mix-react-typescript-extension#readme",
+  "peerDependencies": {
+    "laravel-mix": "^4.0.0"
+  }
+}
