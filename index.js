@@ -35,7 +35,7 @@ class ReactTypeScript {
   webpackRules() {
     return [
       {
-        test: /\.ts|.tsx?$/,
+        test: /\.ts|.tsx?$|.js|.jsx?$|/,
         exclude: /(node_modules)/,
         use: [
           {
