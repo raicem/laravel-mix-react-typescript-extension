@@ -22,5 +22,8 @@
   "homepage": "https://github.com/raicem/laravel-mix-react-typescript-extension#readme",
   "peerDependencies": {
     "laravel-mix": "^4.0.0"
+  },
+  "devDependencies": {
+    "fork-ts-checker-webpack-plugin": "^5.0.12"
   }
 }
