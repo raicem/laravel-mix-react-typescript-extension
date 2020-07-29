@@ -1,4 +1,5 @@
 let mix = require("laravel-mix");
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 class ReactTypeScript {
   constructor() {
@@ -49,6 +50,7 @@ class ReactTypeScript {
 
   webpackConfig(webpackConfig) {
     webpackConfig.resolve.extensions.push(".ts", ".tsx");
+    webpackConfig.plugins.push(new ForkTsCheckerWebpackPlugin());
   }
 
   babelConfig() {
